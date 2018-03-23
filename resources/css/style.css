@@ -1,0 +1,244 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.page {
+  border: 1px solid grey;
+}
+
+/*header*/
+
+header {
+  height: 4rem;
+  width: 100%;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header img {
+  padding-left: 1.5rem;
+}
+
+header span {
+  line-height: 2rem;
+  color: red;
+  font-weight: bold;
+}
+header .logo-content{
+  display: flex;
+
+}
+
+
+header nav ul {
+
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.5rem;
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  font-size: 1rem;
+
+}
+
+
+
+
+
+
+
+
+header .mobile {
+  display: none;
+}
+
+.banner {
+  display: flex;
+  background-color: grey;
+}
+
+.banner .banner-img {
+  padding: 2rem 1.5rem;
+}
+
+.banner .banner-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.banner-text button {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.information {
+  display: flex;
+  padding: 2rem 1.5rem;
+}
+
+.information .info-img {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-bottom: 2rem;
+  padding-right: 1.5rem;
+}
+
+.info-img h1 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.info-img p {
+  padding-bottom: 2rem;
+}
+
+.information .info-extra {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  align-content: space-around;
+  border-left: .5px solid grey;
+}
+
+.info-extra div {
+  display: flex;
+  border-bottom: .5px solid red;
+}
+
+.info-extra .img {
+  padding: 1rem;
+  width: 35%;
+}
+
+.info-extra img {
+  display: block;
+  width: 100%;
+}
+
+.info-extra .text {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.course {
+  display: flex;
+  margin: 2rem 4.5rem;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.course h1 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.course-info div {
+  display: inline-flex;
+  width: 30%;
+  flex-direction: column;
+  padding-left: 1rem;
+  justify-content: center;
+}
+
+.thesis-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis-container h1 {
+  text-align: center;
+}
+
+.thesis {
+  display: flex;
+  padding: 2rem 1.5rem;
+}
+
+.thesis h1 {
+  text-align: center;
+}
+
+.thesis .video {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.thesis video {
+  padding: 1.5rem;
+}
+
+.thesis h3 {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.thesis .thesis-extra {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-content: space-around;
+  border-left: .5px solid grey;
+}
+
+.thesis-extra div {
+  display: flex;
+  border-bottom: .5px solid red;
+}
+
+.thesis-extra .img {
+  padding: 1rem;
+  width: 35%;
+}
+
+.thesis-extra img {
+  width: 100%;
+}
+
+.thesis-extra .text {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  justify-content: center;
+  width: 65%;
+}
+
+footer{
+  display: flex;
+}
+footer span {
+  display: flex;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+}
+
+footer nav ul {
+
+  vertical-align: bottom;
+  justify-content: flex-end;
+}
+footer nav ul li {
+  padding: 1rem;
+}
